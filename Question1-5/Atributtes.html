@@ -1,0 +1,240 @@
+<!-- new several features of HTML6, like inputs -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs</title>
+    <style>
+        .margin-lados {
+            margin: 1rem;
+            display: block;
+        }
+
+        li h2:first-child {
+            color: royalblue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Input - Search</h1>
+        <ul>
+            <li>Content Attribute</li>
+            <ol>
+                <li><h2>Autofill</h2> --> Autofilling from controls: the autocomplete Attribute
+                    <ul>
+                        <li><b>Autofill anchor mantle --> </b> Attribute describes the meaning of the given value.
+                        </li>
+                        <li><b>Autofill expectation mantle --> </b>Attribute describes what input is expected from users
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <h3>Text</h3>
+                            <ul>
+                                <li>name &nbsp;&nbsp; || &nbsp; &nbsp; Sir Timothy John Berners-Lee, OM, KBE, FRS,
+                                    FREng, FRSA
+                                    <ol>
+                                        <li>honorific-prefix &nbsp; || &nbsp; &nbsp; Sir </li>
+                                        <li>given-name &nbsp; || &nbsp; &nbsp; Timothy</li>
+                                        <li>additional-name &nbsp; || &nbsp; &nbsp; John </li>
+                                        <li>family-name &nbsp; || &nbsp; &nbsp; Berners-Lee </li>
+                                        <li>honorific-suffix &nbsp; || &nbsp; &nbsp; OM, KBE, FRS, FREng, FRSA </li>
+                                    </ol>
+                                </li>
+                                <li>nickname &nbsp; || &nbsp; &nbsp; Tim</li>
+                                <li>organization-title &nbsp; | | Professor</li>
+                                <li>organization &nbsp; || World Wide Web Consortium</li>
+                                <li>address-line1 &nbsp; || 32 Vassar Street </li>
+                                <li>address-line2 &nbsp; |MIT Room 32-G524 |</li>
+                                <li>address-line3 &nbsp; || </li>
+                                <li>address-level4 &nbsp; ||</li>
+                                <li>address-level3 &nbsp; ||</li>
+                                <li>address-level2 &nbsp; || Cambridge </li>
+                                <li>address-level1 &nbsp; ||</li>
+                                <li>country &nbsp; ||</li>
+                                <li>country-name &nbsp; ||</li>
+                                <li>postal-code &nbsp; ||</li>
+                                <li>cc-name &nbsp; ||
+                                    <ol>
+                                        <li>cc-given-name &nbsp; ||</li>
+                                        <li>cc-additional-name &nbsp; ||</li>
+                                        <li>cc-family-name &nbsp; ||</li>
+                                    </ol>
+                                </li>
+                                <li>cc-number &nbsp; ||</li>
+                                <li>cc-csc &nbsp; ||</li>
+                                <li>cc-type &nbsp; ||</li>
+                                <li>transaction-currency |</li>
+                                <li>language &nbsp; ||</li>
+                                <li>sex &nbsp; |--></li>
+
+                                <li>tel &nbsp; || &nbsp; &nbsp; +1 617 253 5702 </li>
+                                <li>tel-country-code &nbsp; || &nbsp; &nbsp; +1</li>
+                                <li>tel-national &nbsp; || &nbsp; &nbsp; 617 253 5702</li>
+                                <li>tel-area-code &nbsp; || &nbsp; &nbsp; 617</li>
+                                <li>tel-local &nbsp; || &nbsp; &nbsp; 2535702</li>
+                                <li>tel-local-profeix &nbsp; || &nbsp; &nbsp; 253</li>
+                                <li>tel-local-suffix &nbsp; || &nbsp; &nbsp; 5702</li>
+                                <li>tel-extension &nbsp; || &nbsp; &nbsp; 100</li>
+                            </ul>
+                        </li>
+                        <li class="li-color">
+                            <h3>username</h3>
+                            <ol>
+                                <li>username &nbsp; || &nbsp; &nbsp; timbl</li>
+                                <li>mail &nbsp; || &nbsp; &nbsp; ana@w3.org</li>
+                            </ol>
+                        </li>
+                        <li class="li-color">
+                            <h3>Password</h3>
+                            <ol>
+                                <li>new-password &nbsp; || &nbsp; &nbsp; GUMFXbadyrS3 </li>
+                                <li>current-password &nbsp; || &nbsp; &nbsp; qwerty </li>
+                                <li>one-time-code &nbsp; || &nbsp; &nbsp; 123456</li>
+                            </ol>
+                        </li>
+                        <li class="li-color">
+                            <h3>Multiline</h3>
+                            <ol>
+                                <li>street-address &nbsp; || &nbsp; &nbsp; 32 Vassar Street MIT Room 32-G524 </li>
+                            </ol>
+                        </li>
+                        <li class="li-color">
+                            <h3>Month</h3>
+                            <ol>
+                                <li>cc-exp &nbsp; || &nbsp; &nbsp; </li>
+                            </ol>
+                        </li>
+                        <li class="li-color">
+                            <h3>Numeric</h3>
+                            <ol>
+                                <li>cc-exp-month &nbsp; || &nbsp; &nbsp; </li>
+                                <li>cc-exp-year &nbsp; || &nbsp; &nbsp; </li>
+                                <li>transaction-amount &nbsp; || &nbsp; &nbsp; </li>
+                                <li>bday-day &nbsp; || &nbsp; &nbsp; </li>
+                                <li>bday-month &nbsp; || &nbsp; &nbsp; </li>
+                                <li>bday-year &nbsp; || &nbsp; &nbsp; </li>
+                            </ol>
+                        </li>
+                        <li class="li-color">
+                            <h3>Date</h3>
+                            <ol>
+                                <li>bday &nbsp;&nbsp; ||</li>
+                            </ol>
+                        </li>
+                        <li class="li-color">
+                            <h3>URL</h3>
+                            <ol>
+                                <li>url &nbsp;&nbsp; || &nbsp; https://www.w3.org/People/Berners-Lee/ </li>
+                                <li>photo &nbsp;&nbsp; || &nbsp;&nbsp;
+                                    https://www.w3.org/Press/Stock/Berners-Lee/2001-europaeum-eighth.jpg </li>
+                                <li>impp &nbsp;&nbsp; || &nbsp;&nbsp; irc://example.org/timbl,isuser </li>
+                            </ol>
+                        </li>
+                    </ul>
+
+                </li>
+                <br>
+                <li>
+                    <h2>dirname</h2>
+                        <p>attribute on a form control element enables the submission of the directionality of the element, and gives the name of the control that contains this value during form submission.</p>
+                    <ul>
+                        <li>Example</li>
+                        <li><form action="addcomment.cgi" method=post>
+                            <p><label>Comment: <input type=text name="comment" dirname="comment.dir" required></label></p>
+                            <p><button name="mode" type=submit value="add">Post Comment</button></p>
+                           </form>
+                        </li>
+                        <li>
+                            comment=Hello&comment.dir=ltr&mode=add
+                        </li>
+                        </ul>
+                </li>
+                <li>list</li>
+                <li>maxlength</li>
+                <li>minlength</li>
+                <li> <h2>pattern</h2>
+                    <ul>
+                        <li><h3>attribute for these input types:</h3>
+                            <ul>
+                                <li>Text</li>
+                                <li>Tel</li>
+                                <li>Email</li>
+                                <li>Url</li>
+                                <li>Password</li>
+                                <li>Search</li>
+                            </ul>
+                        </ul>
+                    </ol>
+                </li>
+                <li>placeholder</li>
+                <li>readOnly</li>
+                <li>required</li>
+                <li>size</li>
+            </ol>
+            <li>IDL Atributes</li>
+            <ol>
+                <li>list</li>
+                <li>selectionStart</li>
+                <li>selectionEnd</li>
+                <li>selectionDirection</li>
+                <li>value</li>
+            </ol>
+            <li>Methods</li>
+            <ol>
+                <li>select()</li>
+                <li>setRangeText()</li>
+                <li>setSelectionRange()</li>
+            </ol>
+            <li> Events
+                <ol>
+                    <li>Input Event</li>
+                    <li>change Event</li>
+                </ol>
+            </li>
+        </ul>
+        <div>
+            <input class="margin-lados" type="search" value="search" placeholder="search">
+        </div>
+    </div>
+    <form>
+        <input class="margin-lados" type="email" name="Email" id="" placeholder="Type Email">
+        <input class="margin-lados" type="submit">
+        <input class="margin-lados" type="button" value="button" placeholder="Type button">
+        <input class="margin-lados" type="checkbox" value="checkbox" placeholder="Type checkbox">
+        <input class="margin-lados" type="color" value="color" placeholder="color">
+        <input class="margin-lados" type="date" value="date" placeholder="date">
+        <input class="margin-lados" type="datetime-local" value="datetime-local" placeholder="color">
+        <input class="margin-lados" type="date" value="date" placeholder="date">
+        <input class="margin-lados" type="datetime-local" value="datetime-local" placeholder="color">
+        <input class="margin-lados" type="file" value="file" placeholder="file">
+        <input class="margin-lados" type="hidden" value="hidden" placeholder="hidden">
+        <input class="margin-lados" type="image" value="image" placeholder="image">
+        <input class="margin-lados" type="month" value="month" placeholder="month">
+        <input class="margin-lados" type="number" value="number" placeholder="number">
+        <input class="margin-lados" type="password" value="password" placeholder="password">
+        <input class="margin-lados" type="radio" value="radio" placeholder="radio">
+        <input class="margin-lados" type="range" value="range" placeholder="range">
+        <input class="margin-lados" type="reset" value="reset" placeholder="reset">
+
+        <input class="margin-lados" type="search" value="search" placeholder="search">
+        <input class="margin-lados" type="submit" value="submit" placeholder="submit">
+        <input class="margin-lados" type="tel" value="tel" placeholder="tel">
+        <input class="margin-lados" type="time" value="time" placeholder="time">
+        <input class="margin-lados" type="url" value="url" placeholder="url">
+        <input class="margin-lados" type="week" value="week" name="week" min="2017-W01" max="2017-W52">
+        <!--Deprecated-->
+        <input class="margin-lados" type="datetime" value="datetime" placeholder="datetime">
+    </form>
+</body>
+<!-- 
+    https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#inappropriate-for-the-control
+-->
+
+</html>

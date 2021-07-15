@@ -1,0 +1,39 @@
+1.-There are several new features of HTML5, like inputs. From the list below, which elements are introduced by HTML5?
+A). <input> with search type.
+B) <input> with text type.
+c) <input> with url type.
+D) <input> with email type.
+Correct: A,C,D
+
+2.- From the list below, which elements were introduced by HTML5?
+A), <input> wih color type
+B) <input> with checkbox type
+C) <input> with time type
+D) <input> with range type
+Correct: A,C,D 
+
+3.- Which statement is true for the placeholder form attribute, that was introduced by HTML5?
+A) It ensures a blank text within the input itself, that disappears on clicking on the input.
+B) it ensures a blank text within the input itself, that disappears when the input has a current value.
+C) It ensures a blank text below the input, that disappears on clicking on the input.
+D) it ensures a red text below the input, that appears when the input value is not valid.
+Correct: A, 
+
+4.- What is the ,, required” HTML5 form attribute?
+A) If we use it on any kind of form element, the form can’t be submitted if the element value is not provided.
+B) if we use it on any king of form element, the form can’t be submitted if all the form elements values are not provided.
+C) it means, that the client can’t leave the page, before submitting the form. 
+Correct: A. 
+    The ..Required” HTML5 form attribute means that if we use it on any kind of form element, the form can’t be submitted if the element value is not provided.
+
+
+5.- The ____ HTML5 form attribute is used for defining the acceptable character pattern for a field.
+A) Field
+B) Fieldpattern
+C) Pattern
+D) Valid
+Correct: C,
+     The pattern HTML5 attribute enables us to select the acceptable character pattern for a field.
+
+
+
