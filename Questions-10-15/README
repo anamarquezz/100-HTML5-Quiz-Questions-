@@ -1,0 +1,61 @@
+11.- You have defined an <input>, with the given pattern. Which statement is true?
+	
+	<input type="text" name="input" pattern="[0-9a-zA-Z]{3}"/>
+
+A) The input accepts only  with upper and lowercase letters.
+	
+B) The input accepts only with upper and lowercase letters, and digits
+	
+C) The input accepts a maximum of three characters, with upper and lowercase letters, and digits.
+		
+Correct: B, This input accepts only three characters, with upper and lowecase letters, and numbers.
+			The 0-9 means the figits, the a-z means the lowecase alphabet, the A-Z meands the uppercase alphabet.
+ 			The {}  is used for defining the proper length
+
+
+12.- You have defined an HTML input, using the given pattern.
+	 Wich	statement is true?
+	
+		<input name="input" pattern="[0-9a-zA-Z\s]+"/>
+A) The input accepts any number of characters, with uper and lowecase letters, digits
+B) The input accepts any number of characters, with uper and lowecase letters, digits, and whitespace.
+C) The input accepts any number of characters, with uper and lowecase letters, digits, and special characters.
+
+Correct:  B,  This input accepts any number of characters, with upper and lowercase
+				letters, numbers, and whitespace. The 0-9 means the digits, the a-z means the lowecase 
+				alphabet, the A-Z means the uppercase alphabet. The + means
+				any number of characters
+            
+
+13.- 
+A)  
+B) 
+    
+C) 
+    
+D) 
+
+Correct:   , 
+        
+
+14.- 
+    
+A) 
+B) 
+C) 
+D) 
+Correct: , 
+			
+
+15.- 
+	 
+A) 
+B) 
+C) 
+D) 
+Correct: ,
+			
+
+			
+
+        

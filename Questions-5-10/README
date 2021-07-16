@@ -35,12 +35,31 @@ Correct:  C , This input was introduced by HTML5. It is used for defining a text
 
 9.- You would like to let the client give his website address URL, in a valid format. Which solution would  
     you apply?
-A) Use the <inpuit> with url type 
-B) Use the <input> with URL type, and a correct pattern
-    
-C) 
-    
-D) 
+A) Use the <input> with url type 
+B) Use the <input> with URL type, and a correct pattern    
+C) Use a range input
+D) Use a text input.
+Correct: A, By default, theURL input is oing to make a proper validation.
+			For this reason we don;t need to use the pattern attribute.
 
-Correct:
+10.- You would like to let the client give his phone number,
+	 in a valid, wanted format. Wich soulution would you apply as a web developer ?
+A) use the <input> with tel type
+B) use the <input> with tel type, and a correct pattern
+C) use  a range input
+D) use  a <textarea>
+Correct: B, by default, the tel input is not going to make a proper validation. 
+			You should use patterns for this goal.
+
+10.- You have defined an <input>, with the given pattern. Wich stateent is true?
+	<input type="text" name="input" pattern="[0-9a-zA-Z]{3}">
+	 
+A) The input accepts only three characters, with upper and lowecase letters
+B) The input accepts only three characters, with upper and lowecase letters, and figits.
+C) The input accepts a maximum of three characters, 
+	with upper and lowecase letters, and digits.
+D) 
+Correct: B,
+			
+
         
