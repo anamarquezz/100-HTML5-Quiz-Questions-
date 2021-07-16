@@ -1,0 +1,46 @@
+6.- You would like to let the text input automatically focused when arriving on the page. Which solution would you apply, for defining the form?.
+A)  <form method=”post” actions=”process.php” autofocus=”name’>
+	<input type=”text” name=”name”>
+	<input type=”submit”>
+	</form>
+B) <form method=”post” actions=”process.php” autofocus >
+	<input type=”text” name=”name”>
+	<input type=”submit”>
+	</form>
+C) <form method=”post” actions=”process.php” >
+	<input type=”text” name=”name” autofocus>
+	<input type=”submit”>
+	</form>
+Correct: C, For this goal, just use the “autofocus” attribute on the wanted form input irself
+
+
+7.- What is the difference between an input with "text" type, and input with "email" type?
+A) They both are accepting normal characters, but the email type only accepts a valid email address 
+B) The input with a text type is multiline, the input with email not.
+C) The input with a text type accepts only numbers, the input with email not.
+D) the input with text type can not accept the "@" character, the input with email type yes.
+Correct: A , There is a little difference between the two inputs. They both are accepting normal 
+            characters, but the email type only accepts a valid email address.
+
+8.- What is the general use of an <input> element, with search type?
+A)  This is not an wexisting concept
+B) it is used for defining a text-like input, for entering a search query on forms, with the "post"
+    form method attribute.
+C) It is used for defininf a text-like input, for entering a search query on forms, with the "get"
+    form method attribute.
+D) It is used for defining a text nput, where a dropdown helps the client to find the proper keyword.
+
+Correct:  C , This input was introduced by HTML5. It is used for defining a text-like input, for entering a search query on forms,
+        with the "get" method attribute.
+
+9.- You would like to let the client give his website address URL, in a valid format. Which solution would  
+    you apply?
+A) Use the <inpuit> with url type 
+B) Use the <input> with URL type, and a correct pattern
+    
+C) 
+    
+D) 
+
+Correct:
+        
