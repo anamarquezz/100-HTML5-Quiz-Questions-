@@ -27,33 +27,52 @@ Correct:  B,  This input accepts any number of characters, with upper and lowerc
 				any number of characters
             
 
-13.- 
-A)  
-B) 
-    
-C) 
-    
-D) 
+13.- Given two inputs below, using different patterns. What is The
+difference between them?
+	<input name="input" pattern="[A-Za-z\s]+">
+	<input name="input" pattern="[A-Za-z\s]{8}">
 
-Correct:   , 
+A) The first input any accepts any number of lower-and uppercase letters and spaces, while the second
+input accepts a minimum of eight lower-and uppercase letters and spaces
+
+B)The first input any accepts any number of lower-and uppercase letters, while the second input
+accepts a minimum of eight lower-and uppercase letters.
+
+C) The first input any accepts number of lower-and uppercase letters and spaces, while
+	the second input accepts a maximum of eight lower-and uppercase letters and spaces
+Correct:   A, The difference is that the first input accepts any number of lower-and uppercase letters and 
+spaces, while the second input accepts a minimum of eight lower*and uppercase lettersand spacess
+. The a-z means the lowercase alphabet, the A-Z means the uppercase alphabet.
+the + means any number of characters. The {} is used for defined the exact length.
         
 
-14.- 
+14.- You would like to create an HTML input for the username field.
+	It can contain 6-50 characters, with whitespaces, upper-and lowercase letters,
+	and digits. Which is a proper solution?
     
-A) 
-B) 
-C) 
-D) 
-Correct: , 
+A) <input name="username" patterns="[A-Za-z\d\s]{6,50}">
+B) <input name="username" patterns="[A-Za-z/d/s]{6,50}">
+C) <input name="username" patterns="[A-Za-z\d\s](6,50)">
+C) <input name="username" patterns="[A-Za-z\s]{6,50}">
+
+Correct: A, For using uppercase-and lowercase letters, use A-Z a-z inside square brackets. For defining A
+minimum and maximum length, use the {} with the proper values inside it.
+The \d means the digits, the \s means the whitespaces. For defining
+the proper length in total, use the {} brackets.
 			
 
-15.- 
+15.- You would like to create an input, that acceps the phone numbers in
+the (xxxx) xxx xxxx format. Which is the proper solution?
 	 
-A) 
-B) 
-C) 
-D) 
-Correct: ,
+A) <input type="tel" id="phone" name="phone" pattern="\([0-9]{4}) [0-9]{3} [0-9]{4}"
+B) <input type="tel" id="phone" name="phone" pattern="\([0-9]{4}\) [0-9]{3} [0-9]{4}"
+C) <input type="tel" id="phone" name="phone" pattern="\([0-9]{4}\\) [0-9]{3} [0-9]{4}"
+
+Correct: B,  pattern="\([0-9]{4}\) [0-9]{3} [0-9]{4}"
+			First, there are four digits, then there are three, and four digits
+			again. The first four digits are inside () parentheses.
+			For defining these characters, we need to use one "\"
+			backslash before them, because they are reserved characters
 			
 
 			

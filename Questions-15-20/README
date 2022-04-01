@@ -1,0 +1,56 @@
+
+16.- The HTML5 color input lets the client choose the proper value in the
+	format. However, the server receives the value in the .. format. 	
+	 
+A) RGB, HEX
+B) HEX, RGB
+C) RGBA, HEX
+D) HEX, RGBA
+	Correct: A , The HTML5 color input lets the client choose the proper
+			value in the RGB format. However, the server receives
+			the value in the HEX format.
+			
+
+
+17.- What is the use of the "minlength" HTML5 attribute?
+	 
+A) This is used for specifying the minimum number of characters of a text input.
+B) This is used for specifying the minimum number of characters of a text input, or area
+C) This is used for specifying the minimum acceptable value of a number input
+D) This is not an existin attribute in HTML5.
+	
+	Correct: B, The minlength HTML5 attribute is used for specifying the 
+	minimum number of characters of a text input, or textarea.
+
+18.-  You would like to remove every HTML validations from your form. For
+this reason, use the.
+	 
+A) formvalidate="formnovalidate" attribute-value pair on the <form> itself
+B) formvalidate="formnovalidate" attribute-value pair on the submit input
+C) formvalidate="formnovalidate" attribute-value pair on the necessary form inputs
+	Correct: B, when using the formnovalidate="formnovalidate" on the submit input itself
+			
+
+
+19.- 
+	 
+A) 
+B) 
+C) 
+D) 
+Correct: ,
+			
+
+			
+20.- 
+	 
+A) 
+B) 
+C) 
+D) 
+Correct: ,
+			
+
+			
+
+        
